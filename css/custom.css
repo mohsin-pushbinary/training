@@ -44,7 +44,8 @@ body p{
   color:#2D323D !important;
 }
 .m-cen{
-    margin: auto;
+  margin-left:195px;
+    /* margin: auto; */
 }
 .header-banner h1 {
 	text-align: center;
@@ -751,8 +752,9 @@ color:white;
   /* color: white; */
 }
 .jyt{
-  position: absolute;
-    right: 135px;
+  position: relative;
+    right: 0px;
+    padding-left: 20px;
 }
 @media(max-width:480px){
   .jyt{
