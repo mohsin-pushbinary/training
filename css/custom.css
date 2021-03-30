@@ -1,5 +1,6 @@
 body{
-    font-family: 'Roboto', sans-serif !important;
+    font-family: 'Abel', sans-serif !important;
+    font-size: 20px;
 }
 body p{
   color: #424242 !important;
@@ -11,6 +12,10 @@ body p{
 }
 .nav-link {
   color: #2D323D !important;
+}
+.navbar-brand{
+  padding-top: 0px;
+    padding-bottom: 0px;
 }
 .btn-outline-primary {
   color: #62748a;
@@ -49,7 +54,7 @@ body p{
 }
 .header-banner h1 {
 	text-align: center;
-	margin: 200px 0 40px;
+	/* margin: 200px 0 40px; */
 	text-align: center;
 	font-size: 48px;
 	color: #ecf0f1;
@@ -140,12 +145,18 @@ body p{
     width: 100%;
 }
 .header-banner {
-    background:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url('../images/training.jpg');   
-    height: 800px;
+  background-blend-mode: overlay;
+  background-image: url(../images/25101.jpg),linear-gradient(
+    135deg,#f44336 0%,#212121 100%)!important;
+    height: 628px;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     background-position: center;
+    
+}
+
+
     
 }
 .header-banner1 {
@@ -165,7 +176,7 @@ body p{
     font-size: 70px !important;
     line-height: 1.2em !important;
     font-weight: 700 !important;
-    margin-bottom: 20px !important;
+    padding-top: 30%;
 }
 .item{
     padding-left:5px;
@@ -309,7 +320,7 @@ a{
     text-decoration:none;
 }
 .section-title h4 {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 500;
   color: #777;
 }
@@ -326,7 +337,7 @@ a{
 }
 .section-title p {
 	font-weight: 300;
-	font-size: 14px;
+	font-size: 20px;
 }
 .black-bg .section-title h2, .black-bg .section-title h4, .black-bg .section-title p {
   color:#fff
@@ -355,6 +366,9 @@ a{
 .section-title {
   margin-bottom: 40px;
   margin-top: 40px;
+}
+.section-title h1 {
+  color: #ec407a;
 }
 .single-price {
 	text-align: center;
@@ -522,7 +536,7 @@ pills-set{}
   color:#fff !important;
 }
 .p-tr{
-  padding-top: 60px;
+  padding-top: 30px;
 }
 #more {display: none;}
 
@@ -1111,7 +1125,7 @@ color:white;
 }
 
 .bg-primary {
-  background-color: #29c7ca !important;
+  background-color: #007d33 !important;
   color: #fff !important
 }
 
@@ -1121,12 +1135,12 @@ color:white;
 }
 
 .bg-info {
-  background-color: #34b5dc !important;
+  background-color: #ec407a !important;
   color: #fff !important
 }
 
 .bg-warning {
-  background-color: #ffc107 !important;
+  background-color: #bdbdbd !important;
   color: #fff !important
 }
 
@@ -1159,4 +1173,20 @@ color:white;
 
 .bg-default-darker {
   background-color: #212121
+}
+.bg-set{
+  background: #ec407a !important;
+}
+.testimonioal{
+  width: 75%;
+    margin: auto;
+}
+.testimonioal p{
+  color: #fff !important;
+  
+}
+.btn-info {
+  background-color: #ec407a !important;
+  color: #fff !important;
+  border: #ec407a !important;
 }
