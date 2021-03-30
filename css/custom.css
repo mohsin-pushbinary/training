@@ -368,7 +368,7 @@ a{
   margin-top: 40px;
 }
 .section-title h1 {
-  color: #ec407a;
+  color: #007d33;
 }
 .single-price {
 	text-align: center;
@@ -1135,7 +1135,7 @@ color:white;
 }
 
 .bg-info {
-  background-color: #ec407a !important;
+  background-color: #007d33 !important;
   color: #fff !important
 }
 
@@ -1175,7 +1175,7 @@ color:white;
   background-color: #212121
 }
 .bg-set{
-  background: #ec407a !important;
+  background: #007d33 !important;
 }
 .testimonioal{
   width: 75%;
@@ -1186,7 +1186,7 @@ color:white;
   
 }
 .btn-info {
-  background-color: #ec407a !important;
+  background-color: #007d33 !important;
   color: #fff !important;
-  border: #ec407a !important;
+  border: #007d33 !important;
 }
