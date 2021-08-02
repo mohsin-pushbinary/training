@@ -9,16 +9,29 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.gstatic.com">
+  
+  <script type="text/javascript" src="js/index.js"></script>
   <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
   <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet"> -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/custom.css" type="text/css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+  <script src="https://smtpjs.com/v3/smtp.js" type="text/javascript"></script>
 
-  <title>Training</title>
+  <title>ITSM Training</title>
   <style>
-    #client-testimonial-carousel {min-height: 200px;}
+    #client-testimonial-carousel {min-height: auto;}
   </style>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SVDMS935SG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SVDMS935SG');
+</script>
 </head>
 
 <body>
@@ -29,425 +42,239 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <a class="navbar-brand" href="index.html"><img src="images/logo.png" style="width: 50px !important;" class="w-100"></a>
-        <ul class="n-l navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        <a style="color: #007d33;" class="navbar-brand" href="index.html"><img src="images/logo1.png" class="w-100">
+          <!-- TRAINING ACADEMY -->
+        </a>
+        <ul class="n-l navbar-nav ms-auto me-5">
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">Who we are? </a>
+          <li class="nav-item ms-1">
+            <a class="nav-link" href="aboutus.html">About Us</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Training
-            </a>
+          <li class="nav-item dropdown ms-1">
+            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Courses</a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="training.html">Training 1</a></li>
-              <li><a class="dropdown-item" href="#">Training 2</a></li>
-              <li><a class="dropdown-item" href="#">Training 3</a></li>
-              <li><a class="dropdown-item" href="#">Training 4</a></li>
+              <li><a class="dropdown-item"  href="training.html">IT Service Management</a></li>              
             </ul>
           </li>
-          
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="#schedule">Schedule</a>
-          </li> -->
-          <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
-            </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li> -->
-
-          <!-- <li class="con-rgt n-2">
-            <a href="#" class="btn btn-outline-primary  consul rounded-pill"></a>
-          </li> -->
-
+          <li class="nav-item ms-1">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
         </ul>
-        
-          <!-- <div class="jyt">
-          <a href="#" class="btn  fht  rounded-pill">Consulting</a>
-        </div> -->
       </div>
     </div>
   </nav>
-  <div class="header-banner">
-    <div class="container">
-      <!-- <div class="header-topmenu">
-        <div class="row">
-          <div class="col-md-7">
-            <div class="address-icon">We can change your life! Call us today <a href="tel:123-456-7890"><i class="fas fa-phone-alt"></i> +012 (4567) 789</a>
-            </div>
-          </div>
-          <div class="col-md-5 text-right">
-            <div class="custom-page-top">
-              
-            </div>
-
-            
-          </div>
-        </div>
-      </div> -->
-     
-      <div class="col-xs-offset-8 col-xl-offset-8 col-xs-8 col-xl-8">
-        <h1 class="banner-text">Creative Coaching We provide Training</h1>
-      </div>
-    </div>
-  </div>
-
-  <!-- <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center btn-train">
-        <div class="but-round">
-          <button type="button" class="btn btn-outline-primary rounded-pill">PMP Training</button>
-          <button type="button" class="btn btn-outline-primary rounded-pill">ITIL Training</button>
-          <button type="button" class="btn btn-outline-primary rounded-pill">HR Training</button>
-          <button type="button" class="btn btn-outline-primary rounded-pill">CCNA Training</button>
-          <button type="button" class="btn btn-outline-primary rounded-pill">CRM Training</button>
-
-
-
-        </div>
-      </div>
-    </div>
-  </div> -->
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="about-section" id="about">
-          <div class="section-title">
-            <h1 class="text-center">About ITIL</h1>
-          </div>
-          
-          <!-- <p>ITIL is the globally-recognised leader in IT service management.</p> -->
-          <p>The Information Technology Infrastructure Library, better known as ITIL, is the pre-eminent framework for
-            managing IT service delivery around the world. ITIL defines a service lifecycle model that prescribes
-            specific processes and activities during the design, development, delivery, and support of IT services. For
-            the purposes of this discussion, IT services are any IT activities that deliver business value to a
-            company's end users, customers and other internal or external stakeholders. Examples of IT services include
-            centralized corporate email and corporate websites based on back-end IT processes, such as server and
-            network administration. The current version of ITIL is known as ITIL V3</p>
-          <p>It is a collection of best practices in IT service management that allows you to monitor, sculpt and
-            improve your IT services. It is particularly useful in a customer-service-based management system as it
-            allows you to manage risk, improve customer experience and enable business change.</p>
-          <p>It also enables you to lower your IT costs while delivering better services, by improving the way different
-            teams interact and manage the IT infrastructure within your business. It incorporates a wide range of
-            departments, from design to development.</p>
-        </div>
-
-      </div>
-    </div>
-  </div>
-  <section class="">
-    <div class="container">
-    <div class="row">
-      <div class="col-xl-12 mx-auto text-center">
-        <div class="section-title">
-          <h1>What is Service Management? 
-          </h1>
-        </div>
-      </div>
-    </div>
-   
-    <div class="row" >
-      <div class="col-md-12">
-        <div>
-          <iframe width="100%" height="500" src="https://www.youtube.com/embed/BTdsP4WOgVE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-  </div>
-  </section>
-  <!-- <div class="container">
-    <div class="row pt-100" style="">
-      <div class="col-md-4">
-        <div class="card text-center h-100">
-          <div class="card-block cardght">
-            <h2><i class="fas fa-chalkboard fa-1x"></i></h2>
-            <h4 class="card-title">CCSP Training</h4>
-          </div>
-          <card-body>
-            <p> All courses are focused on the core teaching areas and are aligned to Cambridge Teaching Standards.</p>
-          </card-body>
-
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card text-center h-100">
-          <div class="card-block cardght">
-            <h2><i class="fab fa-slideshare fa-1x"></i></h2>
-            <h4 class="card-title">COBIT® Training</h4>
-          </div>
-          <card-body>
-            <p>Learning new skills means you’ll be a better teacher to your students helping to improve their futures.
-            </p>
-          </card-body>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card text-center h-100 card-info">
-          <div class="card-block cardght">
-            <h2><i class="fas fa-certificate fa-1x"></i></h2>
-            <h4 class="card-title">PMP Training</h4>
-
-          </div>
-          <card-body>
-            <p> You’ll get a certificate for every full course you finish. It’s a great way to mark your improvement as
-              a teacher.</p>
-          </card-body>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row pt-100 row-cols-1 row-cols-md-3">
-      <div class="col">
-        <a href="training1.html">
-        <div class="card card-1">
-          
-            <img src="images/1.1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Coaching today easy with the digital teacher</h5>
-              <p class="card-text">You can buy this Template today and make amazing website..
-              </p>
-            </div>
-         
-        </div>
-      </a>
-      </div>
-      <div class="col">
-        <div class="card card-1">
-          <img src="images/2.2.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">We Welcome every single Beginner and Expert</h5>
-            <p class="card-text">You can buy this Template today and make amazing website..
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card card-1">
-          <img src="images/3.3.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Education today much easy with our products</h5>
-            <p class="card-text">You can buy this Template today and make amazing website..
-            </p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-  </div> -->
-  <section>
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-12  mx-auto text-center">
-          <div class="section-title">
-            <h1>IT Service Management for me?
-            </h1>
-            <p>Learn As you Earn……and Corporate Training</p>
-
-          </div>
-        </div>
-        <div class="col-md-4">
-            <div class="widget-container">
-                <div class="widget">
-                    <div class="profile-card">
-                        <div class="card-header">
-                            <div class="header-avatar">
-                                <img src="images/and.jpg" alt="andy">
-                            </div>
-                            <div class="header-name">
-                                Anderson Charlotte
-                            </div>
-                        </div>
-                        <div class="card-body bg-warning">
-                            <div class="body-description">
-                                A user profile is a group of settings that define how Outlook is set up for a particular user. For example, a profile may include access to a mailbox on Microsoft Exchange Server, and specify that the Outlook Address Book appear in the Address Book dialog box. A profile can contain any number of information services.
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="widget-container">
-                <div class="widget">
-                    <div class="profile-card">
-                        <div class="card-header">
-                            <div class="header-avatar">
-                                <img src="images/morri.png" alt="morri">
-                            </div>
-                            <div class="header-name">
-                                Caludio Morrison
-                            </div>
-                        </div>
-                        <div class="card-body bg-primary">
-                            <div class="body-description">
-                                A user profile is a group of settings that define how Outlook is set up for a particular user. For example, a profile may include access to a mailbox on Microsoft Exchange Server, and specify that the Outlook Address Book appear in the Address Book dialog box. A profile can contain any number of information services.
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="widget-container">
-                <div class="widget">
-                    <div class="profile-card">
-                        <div class="card-header">
-                            <div class="header-avatar">
-                                <img src="images/mark.jpg" alt="anna">
-                            </div>
-                            <div class="header-name">
-                                Markez Chan
-                            </div>
-                        </div>
-                        <div class="card-body bg-info">
-                            <div class="body-description">
-                                A user profile is a group of settings that define how Outlook is set up for a particular user.
-                                    For example, a profile may include access to a mailbox on Microsoft Exchange Server, and specify that the Outlook Address Book appear in the Address Book dialog box. A profile can contain any number of information services.
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-    </div>
-    </div>
-  </section>
   
-  <section class="" id="schedule">
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-8 mx-auto text-center">
-          <div class="section-title">
-            <h1>Schedule Made For You
-            </h1>
-            <p>our prices</p>
 
+<div id ="popup" class="lightbox pop-up-first">
+  <div  class="pop-up__box" style="background: #fff;">	
+    <div class="modal-header">
+      <button onclick="savepopuptolocal()" type="button" class="btn-close js-go-to-site" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="text-center" id = "thankyou" style="background: #fff; padding: 10px;">
+      <img src="images/Thank you image.jpg">
+      <h3>Thank you!</h3>
+      <p>We will get back to you shortly.</p>
+    </div>
+    <!-- <button class="pop-up__button js-go-to-site">
+		  Continue to site
+		</button>     -->
+		<p class="pop-up__message">
+      <!-- <img src="images/itservicemanagament.jpg" class="w-100"> -->
+      <div class="modal-body" style="margin-top: -20px;" id="popupmsg">
+        <h3>Do you want to learn more about IT Service Management?</h3>
+        <p>Get our free IT Service Management overview video and Other Useful Resources</p>
+        <form id="form">
+          <div class="mb-3 row">
+            <label for="staticEmail" class="col-sm-4 col-form-label">Enter your name:</label>
+            <div class="col-sm-6">
+              <input type="text" id="Namepopup" class="form-control">
+            </div>
           </div>
-        </div>
+          <div class="mb-3 row">
+            <label for="staticEmail" class="col-sm-4 col-form-label">Enter your email:</label>
+            <div class="col-sm-6">
+              <input type="text" id="Emailpopup" class="form-control">
+            </div>
+          </div>      
+          
+          <div style="text-align: center;">
+          <button type="button" class="btn btn-primary" onclick="getvalue()">Get Me the Free Resources</button>          
+          </div>
+
+        </form>
       </div>
-      <div class="row">
-        <div class="col-md-12">
-          <table class="table table-striped table-hover t-data">
-            <tr>
-              <th colspan="3" class="price">SELECT AN UPCOMING CLASS </th>
-              <th class="price">Limited Budget</th>
-              <th>
-            </tr>
-            <tr>
-              <td>Mon 15th Feb 2021</td>
-              <td><i class="fa fa-arrow-right" aria-hidden="true"></i></td>
-              <td>Thu 18th Feb 2021</td>
-              <td class="tdc">$1495</td>
-              <td class="text-center"><a href="training1.html" class="btn bg-info">View</a></td>
-            </tr>
-            <tr>
-              <td>Mon 22nd Feb 2021</td>
-              <td><i class="fa fa-arrow-right" aria-hidden="true"></i></td>
-              <td>Thu 18th Feb 2021</td>
-              <td class="tdc">$1795</td>
-              <td class="text-center"><a href="training1.html" class="btn bg-info">View</a></td>
-            </tr>
-            <tr>
-              <td>Mon 15th Mar 2021</td>
-              <td><i class="fa fa-arrow-right" aria-hidden="true"></i></td>
-              <td>Thu 25th Mar 2021</td>
-              <td class="tdc">$1795</td>
-              <td class="text-center"><a href="training1.html" class="btn bg-info">View</a></td>
-            </tr>
-            <tr>
-              <td>Mon 29th Mar 2021</td>
-              <td><i class="fa fa-arrow-right" aria-hidden="true"></i></td>
-              <td>Thu 1st Apr 2021</td>
-              <td class="tdc">$1795</td>
-              <td class="text-center"><a href="training1.html" class="btn bg-info">View</a></td>
-            </tr>
-            <tr>
-              <td>Mon 12th Apr 2021</td>
-              <td><i class="fa fa-arrow-right" aria-hidden="true"></i></td>
-              <td>Thu 15th Apr 2021</td>
-              <td class="tdc">$1795</td>
-              <td class="text-center"><a href="training1.html" class="btn bg-info">View</a></td>
-            </tr>
-          </table>
-        </div>
+		</p>
+		
+
+	</div>
+</div>
+
+<!-- Modal content -->
+<div class="lightbox pop-up-hide nhs-option js-lightbox">
+  <div class="pop-up__box">
+		<p class="pop-up__message">
+			You are about to leave and will be redirected!
+      Are you sure you want to continue?
+		</p>
+
+		<a href="#" class="pop-up__button">Yes</a>
+		<button class="pop-up__button js-no">No</button>
+	</div>
+</div>
+
+<div class="lightbox pop-up-hide bbc-option js-lightbox">
+  <div class="pop-up__box">
+		<p class="pop-up__message">
+			You are about to leave and will be redirected!
+      Are you sure you want to continue?
+		</p>
+
+		<a href="#" class="pop-up__button">Yes</a>
+		<button class="pop-up__button js-no">No</button>
+	</div>
+</div>
+
+<div class="container-fluid" style="background: #c8e6c9;">
+  <div class="row">
+    <div class="col-md-6" style="padding: 0px !important;">
+      <img src="images/Banner for ITSM Survey.png" style="width: 100%; height:165px;">
+    </div>
+    <div class="col-md-6 survey-te">
+      <h1 class="banner-text">Take this survey to see if the IT Service Management is right for you? 
+      </h1>   
+      <div style=""></div>
+      <div class="text-center">
+        <a href="survey.html" style="font-size: 20px;"><button style="font-size: 24px;"  type="button" class="btn btn-outline-primary">Take this free assessment</button></a>
       </div>
     </div>
-  </section>
-  <section class="">
+  </div>
+</div>
+  
+  <!-- <div class="header-banner1">
+    <div class="container">
+      <div class="col-xs-offset-12 col-xl-offset-12 col-xs-12 col-xl-12">
+        <h1 class="banner-text">Take this survey to see if the IT Service Management is right for you? 
+        </h1>
+      </div>
+      <div style="height:50px;"></div>
+      <div class="text-center">
+        <a href="survey.html"><button href="survey.html" type="button" class="btn btn-danger btn-lg">Survey</button></a>
+      </div>
+      
+    </div>
+  </div> -->
+  <div class="container">
+    <div class="row mt-5 mb-5" style="">
+      <div class="col-md-3">
+        <a href="learnasyouearn.html">
+          <div class="card text-center h-100">
+            <div class="card-block">
+              <img src="images/lean.jpg" class="w-100">
+              <h4 class="card-title">Learn as you Earn 
+              </h4>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-3">
+        <a href="Instructorledvirtualtraining.html">
+          <div class="card text-center h-100">
+            <div class="card-block">
+              <img src="images/7.jpg" class="w-100">
+              <h4 class="card-title">Instructor led virtual training 
+              </h4>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-3">
+        <a href="corporatetraining.html">
+          <div class="card text-center h-100 card-info">
+            <div class="card-block">
+              <img src="images/6.jpg" class="w-100">
+              <h4 class="card-title">Corporate training 
+              </h4>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-3">
+        <a href="operationsmanagement.html">
+          <div class="card text-center h-100 card-info">
+            <div class="card-block">
+              <img src="images/oper.jpg" class="w-100">
+              <h4 class="card-title">Operations Management 
+              </h4>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+<section class="" style="background: #c8e6c9;">
     <div class="container">
       <div class="row">
         <div class="col-xl-8 mx-auto text-center">
-          <div class="section-title">
-            <h1>Testimonials
+          <div class="section-title0">
+            <h1>Appreciation from our learners
             </h1>
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="pt-5 pb-5 bg-set text-light">
-          <div id="client-testimonial-carousel" class="carousel slide" data-ride="carousel" style="height:200px;">
-            <div class="carousel-indicators">
+        <div class=" ">
+          <div id="client-testimonial-carousel" class="carousel slide carousel-dark slide" data-ride="carousel">
+            <div class="carousel-indicators dark" >
               <button type="button" data-bs-target="#client-testimonial-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#client-testimonial-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
               <button type="button" data-bs-target="#client-testimonial-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#client-testimonial-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#client-testimonial-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
             </div>
             <div class="carousel-inner" role="listbox">
-              <div class="carousel-item active text-center p-4">
+              <div class="carousel-item active text-center p4-1">
                 <div class=" testimonioal text-center">
-                  <p class="mb-0"><i class="fa fa-quote-left"></i> Everybody is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid.
+                  <p class="mb-0"> “Rina gave clear down to earth examples. She seems to really care if we understand."
                   </p>
-                  <footer class="">Albert Einstein <cite title="Source Title">genius</cite></footer>
-                  <!-- Client review stars -->
-                  <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
-                  <p class="client-review-stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                    <i class="far fa-star"></i>
-                  </p>
+                  <footer class="">Gustavo Franco <cite title="Source Title"></cite></footer>
+                  <div style="height:10px;"></div>
                 </div>
               </div>
-              <div class="carousel-item text-center p-4">
+              <div class="carousel-item text-center p4-1">
                 <div class="testimonioal text-center">
-                  <p class="mb-0"><i class="fa fa-quote-left"></i> Completed ITIL Foundation course. This was my first introduction to ITIL. The course material was clear and the trainer was extremely knowledgeable in the subject matter and delivered the content exceptionally well." "I found the material well presented and easier to comprehend.
+                  <p class="mb-0">"I love the fact that Rina used very practical examples. This helps a lot with
+                    grasping the
+                    content conceptually."
                   </p>
-                  <footer class="">Albert Einstein <cite title="Source Title">genius</cite></footer>
-                  <!-- Client review stars -->
-                  <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
-                  <p class="client-review-stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                  </p>
+                  <footer class="">Moises de la Roas <cite title="Source Title"></cite></footer>
+                  <div style="height:10px;"></div>
                 </div>
               </div>
-              <div class="carousel-item text-center p-4">
+              <div class="carousel-item text-center p4-1">
                 <div class="testimonioal text-center">
-                  <p class="mb-0"><i class="fa fa-quote-left"></i> A person who never made a mistake never tried anything new.
+                  <p class="mb-0">“Rina was really good at expressing what type of content we’re going to be absorbing."
                   </p>
-                  <footer class="">Albert Einstein <cite title="Source Title">genius</cite></footer>
-                  <!-- Client review stars -->
-                  <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
-                  <p class="client-review-stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
+                  <footer class="">Charles Mattiello <cite title="Source Title"></cite></footer>
+                  <div style="height:10px;"></div>
+                </div>
+              </div>
+              <div class="carousel-item text-center p4-1">
+                <div class="testimonioal text-center">
+                  <p class="mb-0">“I passed my exam with flying colors, Thanks to the great content and well-structured
+                    teaching.”
                   </p>
+                  <footer class="">Joshua Zak <cite title="Source Title"></cite></footer>
+                  <div style="height:10px;"></div>
+                </div>
+              </div>
+              <div class="carousel-item text-center p4-1">
+                <div class="testimonioal text-center">
+                  <p class="mb-0">“Lovely tutor, and very practical and relatable examples in the class.”
+                  </p>
+                  <footer class="">Leon Blythe <cite title="Source Title"></cite></footer>
+                  <div style="height:10px;"></div>
                 </div>
               </div>
             </div>
@@ -461,189 +288,96 @@
             </button>
           </div>
         </div>
-       
       </div>
-      
     </div>
   </section>
-  <div class="container">
-    <div class="row con-p" id="contact">
-      <div class="col-xl-8 mx-auto text-center">
-        <div class="section-title">
-          <h1>Contact Us
-          </h1>
-          <p>Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you
-            within a matter of hours to help you.</p>
+  
 
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="card bg-light mb-3">
-          <div class="card-header contact-header text-uppercase"><svg class="svg-inline--fa fa-home fa-w-18"
-              aria-hidden="true" focusable="false" data-prefix="fa" data-icon="home" role="img"
-              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
-              <path fill="currentColor"
-                d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z">
-              </path>
-            </svg><!-- <i class="fa fa-home"></i> --> CONTACT INFO</div>
-          <div class="card-body contact-detail">
-
-            <p><svg class="svg-inline--fa fa-home fa-w-18" aria-hidden="true" focusable="false" data-prefix="fas"
-                data-icon="home" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
-                <path fill="currentColor"
-                  d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z">
-                </path>
-              </svg><!-- <i class="fas fa-home"></i> --> <strong>No.123 Chalingt Gates,</strong>
-              <span style="display: block; padding-left: 23px;">Supper market New York</span>
-
-            </p>
-            <p><svg class="svg-inline--fa fa-map-marker-alt fa-w-12" aria-hidden="true" focusable="false"
-                data-prefix="fas" data-icon="map-marker-alt" role="img" xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 384 512" data-fa-i2svg="">
-                <path fill="currentColor"
-                  d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
-                </path>
-              </svg><!-- <i class="fas fa-map-marker-alt"></i> --> Clayton, CA 94517</p>
-            <p><svg class="svg-inline--fa fa-envelope fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas"
-                data-icon="envelope" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
-                data-fa-i2svg="">
-                <path fill="currentColor"
-                  d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
-                </path>
-              </svg><!-- <i class="fas fa-envelope"></i> --> <a
-                href="mailto:support@gmail.com">support@gmail.com</a></p>
-            <p><svg class="svg-inline--fa fa-phone-alt fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas"
-                data-icon="phone-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
-                data-fa-i2svg="">
-                <path fill="currentColor"
-                  d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a24.29 24.29 0 0 0-14.01-27.6z">
-                </path>
-              </svg><!-- <i class="fas fa-phone-alt"></i> --> <a href="tel:012 4567 789">+012 (4567) 789</a></p>
-
-          </div>
-
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="card">
-          <div class="card-header text-uppercase contact-header">
-            <h4><svg class="svg-inline--fa fa-envelope fa-w-16" aria-hidden="true" focusable="false" data-prefix="fa"
-                data-icon="envelope" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
-                data-fa-i2svg="">
-                <path fill="currentColor"
-                  d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
-                </path>
-              </svg><!-- <i class="fa fa-envelope"></i> --> SEND A MESSAGE</h4>
-            <p style="color: #212529!important;">(PLEASE DO NOT USE THIS FORM FOR BOOKING REQUEST/INVITE. PLEASE GO TO
-              INVITE PAGE ABOVE)</p>
-          </div>
-          <div class="card-body contact-detail">
-            <form>
-              <div class="mb-3">
-                <label for="name">Name</label>
-                <input type="text" class="form-control" id="Name" aria-describedby="emailHelp" placeholder="Enter name"
-                  required="">
-              </div>
-              <div class="mb-3">
-                <label for="name">Phone No</label>
-                <input type="text" class="form-control" id="Phone" aria-describedby="Phone No" placeholder="Phone No"
-                  required="">
-              </div>
-              <div class="mb-3">
-                <label for="email">Email address</label>
-                <input type="email" class="form-control" id="Email" aria-describedby="emailHelp"
-                  placeholder="Enter email" required="">
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                  else.</small>
-              </div>
-              <div class="mb-3">
-                <label for="message">Message</label>
-                <textarea class="form-control" id="Message" rows="6" required=""></textarea>
-              </div>
-              <div class="mb-3">
-                <button type="button" class="btn btn-primary btn-lg" onclick="getvalue()">Submit</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div style="height:50px;"></div>
-  <footer class="new_footer_area bg_color">
+  <footer class="bg_color">
     <div class="new_footer_top">
       <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6">
+        <div class="row mb-3">
+          <div class="col-lg-4 col-md-4">
             <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s"
               style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
-              <h3 class="f-title f_600 t_color f_size_18">ITIL TRAINING</h3>
+              <h3 class="f-title f_600 t_color f_size_18"></h3>
               <div>
-                <img src="images/2.2.jpg" class="w-100">
+                <img src="images/footer-img.png" class="w-100">
               </div>
-              <!-- <p>We are the world’s largest and most established provider of training courses globally, with extensive experience of providing quality-infused learning solutions - with the capability to deliver over 30,000 courses, in 1000+ locations, across 190 countries. As market leaders, we have successfully trained over 1 million delegates - demonstrating our internationally-renowned trust and unrivalled premium quality, to all of our aspiring learners.</p> -->
             </div>
           </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="mar-l" class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s"
+          <div class="col-lg-4 col-md-4">
+            <div style="color:#fff;" class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s">
+              <h3 class="f-title f_600 t_color f_size_18">Contact Us</h3>
+              <p style="color:#000000 !important;"> 
+                <i class="fas fa-envelope"></i> 
+                <span style="padding-left: 5px;"><a style="color: #000000;" href="mailto:contact@itsmtrainingacademy.com">contact@itsmtrainingacademy.com</a>
+                </span>
+              </p>
+            </div>
+            <div class="" data-wow-delay="0.6s"
               style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
               <h3 class="f-title f_600 t_color f_size_18">Help</h3>
               <ul class="list-unstyled f_list">
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Term &amp; conditions</a></li>
-                <li><a href="#">Reporting</a></li>
-                <li><a href="#">Documentation</a></li>
-                <li><a href="#">Support Policy</a></li>
-                <li><a href="#">Privacy</a></li>
+                <li><a href="privacy.html">Privacy Notice</a></li>
               </ul>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div style="color:#fff;" class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s"
-              style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
-              <h3 class="f-title f_600 t_color f_size_18">Contact Us</h3>
-              <p style="color:#fff !important;"><i class="fas fa-home"></i> <span style="padding-left: 5px;">No.123 Chalingt Gates,</span><br>
-                <span style="padding-left: 25px;">Supper market New York</span>
-              </p>
-              <p style="color:#fff !important;" class="mb-0"><i class="fas fa-phone-alt"></i><span style="padding-left: 5px;"> +012 (4567) 789</span>
-              </p>
-              <p style="color:#fff !important;"><i class="fas fa-envelope"></i> <span style="padding-left: 5px;">support@gmail.com</span></p>
-
+            <div>
+              <h3 class="f-title f_600 t_color f_size_18">Connect with Us</h3> 
+              <div class="social_icon" style="color:#fff;">
+                <a href="https://www.linkedin.com/company/itsmtrainingacademy" target="_blank"> <img src="images/linkedin.png" style="width:40px;"> </a>&nbsp;
+                <a href="https://twitter.com/multihatsclub" target="_blank"> <img src="images/twitter.png" style="width:40px;"></a>
+                <a href="https://www.youtube.com/channel/UCTK-ixwfHUYCclQ882okLDQ" target="_blank"> <img src="images/youtube.png" style="width:48px;"></a>         
+              </div>
+              
             </div>
           </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s"
-              style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
-              <h3 class="f-title f_600 t_color f_size_18">Get in Touch</h3>
-              <p style="color:#fff !important;">Don’t miss any updates of our new templates and extensions.!</p>
+          <div class="col-lg-4 col-md-4">
+            <div class="f_widget company_widget wow fadeInLeft">
+              <h3 class="f-title f_600 t_color f_size_18">Subscribe to our Emails</h3>
+              <p style="color:#000000">Don't miss any update of our upcoming promotions and updates.</p>
               <form action="#" class="f_subscribe_two mailchimp" method="post" novalidate="true" _lpchecked="1">
-                <input type="text" name="EMAIL" class="form-control memail" placeholder="Email">
-                <button class="btn btn_get btn_get_two" type="submit">Subscribe</button>
+                <input type="text" name="EMAIL" class="form-control memail" id="subemail" placeholder="Email">
+                <button data-bs-toggle="modal" data-bs-target="#exampleModalsub" class="btn btn_get btn_get_two" type="button" onclick="getintouch()">Subscribe</button>
                 <p class="mchimp-errmessage" style="display: none;"></p>
                 <p class="mchimp-sucmessage" style="display: none;"></p>
+                
               </form>
+              <div class="modal fade" id="exampleModalsub" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body" >
+                    <div class="text-center" id = "thankyou">
+                      <img src="images/Thank you image.jpg" style="width:auto;">
+                      <h3>Thank you!</h3>
+                      <p>We will get back to you shortly.</p>
+                      
+                    </div>
+                    
+                  </div>
+                  
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="col-md-12 text-center" style="padding-top: 50px;">
-            <div class="social_icon" style="color:#fff;">
-             
-              <a href="#"> <i class="fab fa-twitter fa-2x social"></i></a>
-              <a href="#"> <i class="fab fa-linkedin fa-2x social"></i></a>
-             
             </div>
           </div>
         </div>
       </div>
-
     </div>
     <div class="footer_bottom">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-6 col-sm-7">
-            <p style="color:#fff !important;" class="mb-0 f_400">© Pushbinary</p>
+          <div class="col-lg-12 col-sm-12">
+            <!-- <p class="text-center"style="font-size: 16px;">
+              <span >©</span> @ ITSM Training Academy 
+            </p> -->
+            <p style="color:#000000 !important;" class="mb-0 f_400"> ITIL® is a registered trademark of AXELOS Limited,
+              used under permission of AXELOS Limited. All rights reserved. <span >©</span>2021 by ITSM Training Academy</p>
           </div>
-
         </div>
       </div>
     </div>
@@ -653,12 +387,40 @@
   
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000"
+    },
+    "button": {
+      "background": "#F1D600"
+    }
+  }
+});
+</script>
+<script>
+<!-- lightbox open -->
+$('.js-go-to-site').click(function() {
+  $('.lightbox').fadeOut();
+});
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
-    -->
+// Click on buttons
+$('.js-option').click(function() {
+  var button = $(this).data('option');
+
+  $('.pop-up-first').hide();
+  $('.' + button).show();
+});
+
+// Stay on site so go back
+$('.js-no').click(function() {
+  $('.js-lightbox').hide();
+  $('.pop-up-first').show();
+});
+</script>
+   
 </body>
 
 </html>

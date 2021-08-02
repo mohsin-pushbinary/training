@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+    ></script>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <script type="text/javascript" src="js/index.js"></script>
+    <script
+      src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/custom.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css"
+    />
+    <script src="https://smtpjs.com/v3/smtp.js" type="text/javascript"></script>
+    <title>ITSM Training</title>
+    <style>
+      #client-testimonial-carousel {
+        min-height: auto;
+      }
+    </style>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-SVDMS935SG"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-SVDMS935SG");
+    </script>
+  </head>
+
+  <body>
+    <nav class="navbar nav-set navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a style="color: #007d33" class="navbar-brand" href="index.html"
+            ><img src="images/logo1.png" class="w-100" />
+            <!-- TRAINING ACADEMY -->
+          </a>
+          <ul class="n-l navbar-nav ms-auto me-5">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item ms-1">
+              <a class="nav-link" href="aboutus.html">About Us</a>
+            </li>
+            <li class="nav-item dropdown ms-1">
+              <a
+                class="nav-link dropdown-toggle"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Courses</a
+              >
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="training.html"
+                    >IT Service Management</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item ms-1">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="header-banner11">
+      <div class="container">
+        <div
+          class="col-xs-offset-12 col-xl-offset-12 col-xs-12 col-xl-12"
+        ></div>
+        <div style="height: 50px"></div>
+        <div class="text-center"></div>
+      </div>
+    </div>
+    <section style="background: #c8e6c9">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 mb-3">
+            <div class="about-section" id="about">
+              <div class="section-title">
+                <h1 class="text-center">Operations Management</h1>
+              </div>
+              <div>
+                <p>Metrics and Measurement</p>
+                  <ul>
+                      <li>Different types of Metrics and Measurements</li>
+                      <li>How to use Metrics to run efficient operations</li>
+                      <li>Detailed analysis of industry-standard metrics</li>
+                  </ul>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="mt-5"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="pills-home-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-home"
+                type="button"
+                role="tab"
+                aria-controls="pills-home"
+                aria-selected="true"
+              >
+                Course outline
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-profile-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-profile"
+                type="button"
+                role="tab"
+                aria-controls="pills-profile"
+                aria-selected="false"
+              >
+                Who is it for
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-contact-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-contact"
+                type="button"
+                role="tab"
+                aria-controls="pills-contact"
+                aria-selected="false"
+              >
+                What’s included
+              </button>
+            </li>
+            
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="pills-home"
+              role="tabpanel"
+              aria-labelledby="pills-home-tab"
+            >
+            This Metrics and Measurement course includes an overview of various frameworks and
+            methodologies used to run efficient operations. The course covers the following topics:
+              <div>
+                <br />
+                <h4>Introduction</h4>
+                <ul>
+                  <li>What is Metrics?</li>
+                  <li>Critical components of Metrics and Measurement?</li>
+                  <li>
+                    Purpose and source of Measurement.
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h4>Overview of following topics:</h4>
+                <ul>
+                  <li>Key Performance Indicator</li>
+                  <li>Leading vs. Lagging Indicators</li>
+                  <li>Baseline vs. Benchmarking</li>
+                  <li>Cost-Benefit Analysis</li>
+                  <li>Balanced Scorecard</li>
+                  <li>Performance reporting</li>
+                  <li>Learn to define and measure metrics</li>
+                </ul>
+                <p>
+                  ITIL® is a registered trademark of AXELOS Limited, used under
+                  permission of AXELOS Limited. All rights reserved.
+                </p>
+                <p>
+                  The Swirl logo™ is a trademark of AXELOS Limited, used under
+                  permission of AXELOS Limited. All rights reserved.
+                </p>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-profile"
+              role="tabpanel"
+              aria-labelledby="pills-profile-tab"
+            >
+            This Metrics and Measurement course is suitable for the following professionals:
+              <div>
+                <br />
+                <ul>
+                  <li>Looking to start a career in Operations Management</li>
+                  <li>Looking to grow your career within Operations Management</li>
+                  <li>Business Analysts</li>
+                  <li>Project or Program Managers</li>
+                  <li>Functional Manager</li>
+                  <li>HR Managers</li>
+                  <li>Customer Service Managers</li>
+                  <li>Operations Managers</li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-contact"
+              role="tabpanel"
+              aria-labelledby="pills-contact-tab"
+            >
+              This course includes:
+              <div>
+                <br />
+                <ul>
+                  <!-- <li>The ITIL® 4 Foundation Examination voucher</li>
+                <li>Sample papers and Mock exam</li>
+                <li>Official course material</li>
+                <li>Certificate</li>
+                <li>Training provided by an experienced and an accredited trainer</li>
+                <li>Email support</li> -->
+                  <li>
+                    Official course material
+                  </li>
+                  <li>Certificate</li>
+                  <li>Case study</li>
+                  <li>Training provided by an experienced trainer</li>
+                  <li>Email support</li>
+                </ul>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="price-seti">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <a
+                  class="nav-link active"
+                  id="pills-classes-tab"
+                  data-bs-toggle="pill"
+                  href="#classes"
+                  role="tab"
+                  aria-controls="pills-classes"
+                  aria-selected="true"
+                  >Weekly Course Review Call</a
+                >
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div
+                class="tab-pane fade active show"
+                id="classes"
+                role="tabpanel"
+                aria-labelledby="pills-classes-tab"
+              >
+                <table
+                  id="dtBasicExample"
+                  class="table table-striped table-hover t-data"
+                >
+                  <tbody id="page1">
+                    <tr>
+                      <td colspan="2" class="price" id="goschedule">
+                        Operations Management
+                      </td>
+                      <td class="price text-center">Cost</td>
+                      <th></th>
+                    </tr>
+                    <!-- <tr>
+                    <td>July 2nd, 2021</td>
+                    <td></td>
+                    <td class="tdc" id=price1>$595 </td>
+                    <td class="text-center"><a onclick="getdata(595, 'July 2nd, 2021', '')"
+                        class="btn btn-info">Buy</a></td>
+                  </tr>
+                  <tr>
+                    <td>July 9th, 2021</td>
+                    
+                    <td></td>
+                    <td class="tdc" id=price2>$595 </td>
+                    <td class="text-center"><a onclick="getdata(595,'July 9th, 2021', '')"
+                        class="btn btn-info">Buy</a></td>
+                  </tr> -->
+                    <!-- <tr>
+                      <td>July 16th, 2021</td>
+
+                      <td></td>
+                      <td class="tdc" id="price3">$595</td>
+                      <td class="text-center">
+                        <a
+                          onclick="getdata(595,'July 16th, 2021','')"
+                          class="btn btn-info"
+                          >Buy</a
+                        >
+                      </td>
+                    </tr> -->
+                    <!-- <tr>
+                      <td>July 23rd, 2021</td>
+
+                      <td></td>
+                      <td class="tdc" id="price4">$595</td>
+                      <td class="text-center">
+                        <a
+                          onclick="getdata(595, 'July 23rd, 2021','')"
+                          class="btn btn-info"
+                          >Buy</a
+                        >
+                      </td>
+                    </tr> -->
+                    <!-- <tr id="linkFive">
+                      <td>July 30th, 2021</td>
+
+                      <td></td>
+                      <td class="tdc" id="price5">$595</td>
+                      <td class="text-center">
+                        <a
+                          onclick="getdata(595,'July 30th, 2021','')"
+                          class="btn btn-info"
+                          >Buy</a
+                        >
+                      </td>
+                    </tr> -->
+                    <tr id="linkOne">
+                      <td>August 6th, 2021</td>
+
+                      <td></td>
+                      <td class="tdc" id="price5">$595</td>
+                      <td class="text-center">
+                        <a
+                          onclick="getdata(595,'August 6th, 2021','')"
+                          class="btn btn-info"
+                          >Buy</a
+                        >
+                      </td>
+                    </tr>
+                    <tr id="linkTwo">
+                      <td>August 13th, 2021</td>
+
+                      <td></td>
+                      <td class="tdc" id="price5">$595</td>
+                      <td class="text-center">
+                        <a
+                          onclick="getdata(595,'August 13th, 2021','')"
+                          class="btn btn-info"
+                          >Buy</a
+                        >
+                      </td>
+                    </tr>
+                    <tr id="linkThree">
+                      <td>August 20th, 2021</td>
+
+                      <td></td>
+                      <td class="tdc" id="price5">$595</td>
+                      <td class="text-center">
+                        <a
+                          onclick="getdata(595,'August 20th, 2021','')"
+                          class="btn btn-info"
+                          >Buy</a
+                        >
+                      </td>
+                    </tr>
+                    <tr id="linkFour">
+                      <td>August 27th, 2021</td>
+
+                      <td></td>
+                      <td class="tdc" id="price5">$595</td>
+                      <td class="text-center">
+                        <a
+                          onclick="getdata(595,'August 27th, 2021','')"
+                          class="btn btn-info"
+                          >Buy</a
+                        >
+                      </td>
+                    </tr>
+                  </tbody>
+                  <!-- <tbody id="page2">
+                  <tr>
+                    <td colspan="2" class="price">Learn As You Earn</td>
+                    <td class="price text-center">Cost</td>
+                    <th></th>
+                  </tr>
+                  
+                </tbody> -->
+                </table>
+              </div>
+            </div>
+          </div>
+          <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-end">
+              <li class="page-item">
+                <a
+                  class="page-link"
+                  onclick="priviuspage()"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Previous</a
+                >
+              </li>
+              <li class="page-item">
+                <a class="page-link" onclick="showpage(1)">1</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" onclick="showpage(2)">2</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" onclick="nextpage()">Next</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="mt-5"></div>
+        <div class="row">
+          <div class="col-md-12">
+            <!-- <div class="text-center">
+            <a href="#goschedule"">
+              <button" class="btn btn-primary btn-lg">Buy </button>
+            </a>
+            <a href="#">
+              <button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal2">Enquire
+                </button>
+            </a>
+          </div> -->
+            <div
+              style="z-index: 99999"
+              class="modal fade"
+              id="exampleModal2"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"></h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="text-center" id="thankyou">
+                      <img src="images/Thank you image.jpg" />
+                      <h3>Thank you!</h3>
+                      <p>We will get back to you shortly.</p>
+                    </div>
+                    <form id="form">
+                      <div class="mb-3">
+                        <label for="name" class="col-form-label"
+                          >Please select your industry:</label
+                        >
+                        <select
+                          class="form-select"
+                          aria-label="Default select example"
+                          id="industry"
+                        >
+                          <option selected value="">Select Industry</option>
+                          <option value="1">Agriculture</option>
+                          <option value="2">Aviation</option>
+                          <option value="3">Construction</option>
+                          <option value="Other Option">Education</option>
+                          <option value="Other Option">Finance</option>
+                          <option value="Other Option">
+                            Foods and Produce
+                          </option>
+                          <option value="Other Option">Government</option>
+                          <option value="Other Option">Health</option>
+                          <option value="Other Option">Investment</option>
+                          <option value="Other Option">
+                            Investment and Banking
+                          </option>
+                          <option value="Other Option">Legal</option>
+                          <option value="Other Option">Manufacturing</option>
+                          <option value="Other Option">
+                            Media and Entertainment
+                          </option>
+                          <option value="Other Option">Mining</option>
+                          <option value="Other Option">Other</option>
+                          <option value="Other Option">Pharmaceuticals</option>
+                          <option value="Other Option">Publishing</option>
+                          <option value="Other Option">Real Estate</option>
+                          <option value="Other Option">Research</option>
+                          <option value="Other Option">Retail</option>
+                          <option value="Other Option">Technology</option>
+                          <option value="Other Option">Transportation</option>
+                        </select>
+                      </div>
+                      <div class="mb-3">
+                        <label for="name" class="col-form-label"
+                          >How many people are likely to attend the
+                          training?:</label
+                        >
+                        <select
+                          class="form-select"
+                          aria-label="Default select example"
+                          id="people"
+                        >
+                          <option selected value="">
+                            Select People are likely to attend the training
+                          </option>
+                          <option value="0-5">0 - 5</option>
+                          <option value="6-20">6 - 20</option>
+                          <option value="20-50">20 - 50</option>
+                          <option value="50+">50 +</option>
+                        </select>
+                      </div>
+                      <div class="mb-3">
+                        <label for="name" class="col-form-label">Name:</label>
+                        <input type="text" class="form-control" id="name" />
+                      </div>
+                      <div class="mb-3">
+                        <label for="name" class="col-form-label">Email:</label>
+                        <input type="text" class="form-control" id="email" />
+                      </div>
+                      <div class="mb-3">
+                        <label for="name" class="col-form-label"
+                          >Contact Number:</label
+                        >
+                        <input type="text" class="form-control" id="phone" />
+                      </div>
+                      This site is protected by reCAPTCHA and the Google
+                      <a href="https://policies.google.com/privacy"
+                        >Privacy Policy</a
+                      >
+                      and
+                      <a href="https://policies.google.com/terms"
+                        >Terms of Service</a
+                      >
+                      apply.
+                    </form>
+                  </div>
+                  <div class="modal-footer" id="futter">
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      onclick="submitcontactform()"
+                    >
+                      Submit
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="height: 50px"></div>
+    <section class="" style="background: #c8e6c9">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-8 mx-auto text-center">
+            <div class="section-title0">
+              <h1>Appreciation from our learners</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="">
+            <div
+              id="client-testimonial-carousel"
+              class="carousel slide carousel-dark slide"
+              data-ride="carousel"
+            >
+              <div class="carousel-indicators dark">
+                <button
+                  type="button"
+                  data-bs-target="#client-testimonial-carousel"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#client-testimonial-carousel"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#client-testimonial-carousel"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#client-testimonial-carousel"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#client-testimonial-carousel"
+                  data-bs-slide-to="4"
+                  aria-label="Slide 5"
+                ></button>
+              </div>
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active text-center p4-1">
+                  <div class="testimonioal text-center">
+                    <p class="mb-0">
+                      “Rina gave clear down to earth examples. She seems to
+                      really care if we understand."
+                    </p>
+                    <footer class="">
+                      Gustavo Franco <cite title="Source Title"></cite>
+                    </footer>
+                    <div style="height: 10px"></div>
+                  </div>
+                </div>
+                <div class="carousel-item text-center p4-1">
+                  <div class="testimonioal text-center">
+                    <p class="mb-0">
+                      "I love the fact that Rina used very practical examples.
+                      This helps a lot with grasping the content conceptually."
+                    </p>
+                    <footer class="">
+                      Moises de la Roas <cite title="Source Title"></cite>
+                    </footer>
+                    <div style="height: 10px"></div>
+                  </div>
+                </div>
+                <div class="carousel-item text-center p4-1">
+                  <div class="testimonioal text-center">
+                    <p class="mb-0">
+                      “Rina was really good at expressing what type of content
+                      we’re going to be absorbing."
+                    </p>
+                    <footer class="">
+                      Charles Mattiello <cite title="Source Title"></cite>
+                    </footer>
+                    <div style="height: 10px"></div>
+                  </div>
+                </div>
+                <div class="carousel-item text-center p4-1">
+                  <div class="testimonioal text-center">
+                    <p class="mb-0">
+                      “I passed my exam with flying colors, Thanks to the great
+                      content and well-structured teaching.”
+                    </p>
+                    <footer class="">
+                      Joshua Zak <cite title="Source Title"></cite>
+                    </footer>
+                    <div style="height: 10px"></div>
+                  </div>
+                </div>
+                <div class="carousel-item text-center p4-1">
+                  <div class="testimonioal text-center">
+                    <p class="mb-0">
+                      “Lovely tutor, and very practical and relatable examples
+                      in the class.”
+                    </p>
+                    <footer class="">
+                      Leon Blythe <cite title="Source Title"></cite>
+                    </footer>
+                    <div style="height: 10px"></div>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#client-testimonial-carousel"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#client-testimonial-carousel"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg_color">
+      <div class="new_footer_top">
+        <div class="container">
+          <div class="row mb-3">
+            <div class="col-lg-4 col-md-4">
+              <div
+                class="f_widget about-widget pl_70 wow fadeInLeft"
+                data-wow-delay="0.4s"
+                style="
+                  visibility: visible;
+                  animation-delay: 0.4s;
+                  animation-name: fadeInLeft;
+                "
+              >
+                <h3 class="f-title f_600 t_color f_size_18"></h3>
+                <div>
+                  <img src="images/footer-img.png" class="w-100" />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <div
+                style="color: #fff"
+                class="f_widget social-widget pl_70 wow fadeInLeft"
+                data-wow-delay="0.8s"
+              >
+                <h3 class="f-title f_600 t_color f_size_18">Contact Us</h3>
+                <p style="color: #000000 !important">
+                  <i class="fas fa-envelope"></i>
+                  <span style="padding-left: 5px"
+                    ><a
+                      style="color: #000000"
+                      href="mailto:contact@itsmtrainingacademy.com"
+                      >contact@itsmtrainingacademy.com</a
+                    >
+                  </span>
+                </p>
+              </div>
+              <div
+                class=""
+                data-wow-delay="0.6s"
+                style="
+                  visibility: visible;
+                  animation-delay: 0.6s;
+                  animation-name: fadeInLeft;
+                "
+              >
+                <h3 class="f-title f_600 t_color f_size_18">Help</h3>
+                <ul class="list-unstyled f_list">
+                  <li><a href="privacy.html">Privacy Notice</a></li>
+                </ul>
+              </div>
+              <div>
+                <h3 class="f-title f_600 t_color f_size_18">Connect with Us</h3>
+                <div class="social_icon" style="color: #fff">
+                  <a
+                    href="https://www.linkedin.com/company/itsmtrainingacademy"
+                    target="_blank"
+                  >
+                    <img src="images/linkedin.png" style="width: 40px" /> </a
+                  >&nbsp;
+                  <a href="https://twitter.com/multihatsclub" target="_blank">
+                    <img src="images/twitter.png" style="width: 40px"
+                  /></a>
+                  <a
+                    href="https://www.youtube.com/channel/UCTK-ixwfHUYCclQ882okLDQ"
+                    target="_blank"
+                  >
+                    <img src="images/youtube.png" style="width: 48px"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <div class="f_widget company_widget wow fadeInLeft">
+                <h3 class="f-title f_600 t_color f_size_18">
+                  Subscribe to our Emails
+                </h3>
+                <p style="color: #000000">
+                  Don't miss any update of our upcoming promotions and updates.
+                </p>
+                <form
+                  action="#"
+                  class="f_subscribe_two mailchimp"
+                  method="post"
+                  novalidate="true"
+                  _lpchecked="1"
+                >
+                  <input
+                    type="text"
+                    name="EMAIL"
+                    class="form-control memail"
+                    id="subemail"
+                    placeholder="Email"
+                  />
+                  <button
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModalsub"
+                    class="btn btn_get btn_get_two"
+                    type="button"
+                    onclick="getintouch()"
+                  >
+                    Subscribe
+                  </button>
+                  <p class="mchimp-errmessage" style="display: none"></p>
+                  <p class="mchimp-sucmessage" style="display: none"></p>
+                </form>
+                <div
+                  class="modal fade"
+                  id="exampleModalsub"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="text-center" id="thankyou">
+                          <img
+                            src="images/Thank you image.jpg"
+                            style="width: auto"
+                          />
+                          <h3>Thank you!</h3>
+                          <p>We will get back to you shortly.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer_bottom">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-12 col-sm-12">
+              <!-- <p class="text-center"style="font-size: 16px;">
+              <span >©</span> @ ITSM Training Academy 
+            </p> -->
+              <p style="color: #000000 !important" class="mb-0 f_400">
+                ITIL® is a registered trademark of AXELOS Limited, used under
+                permission of AXELOS Limited. All rights reserved.
+                <span>©</span>2021 by ITSM Training Academy
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="Time" style="visibility: hidden"></div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"
+      data-cfasync="false"
+    ></script>
+    <script>
+      window.cookieconsent.initialise({
+        palette: {
+          popup: {
+            background: "#000",
+          },
+          button: {
+            background: "#F1D600",
+          },
+        },
+      });
+    </script>
+    <script>
+      function getdata(amount, from, to) {
+        var amountt = amount.toString();
+        localStorage.setItem("amount", amountt);
+        localStorage.setItem("from", from);
+        localStorage.setItem("to", to);
+        localStorage.setItem("page", "Learn as you Earn");
+
+        // var data = {};
+        // data.amount = amount;
+        // console.log(data.amount);
+        // $.post('http://api.itsmtrainingacademy.com/amount',data,function(result)
+        // {
+        // console.log(result);
+        // })
+        window.location.href = "booknow.html";
+      }
+    </script>
+    <script type="text/javascript">
+      window.setInterval(function () {
+        var countOfLinksThatAreValid = 0;
+
+        var current = new Date();
+        var linkOneExpirationDate = new Date("August 06, 2021 23:59:00");
+        var linkTwoExpirationDate = new Date("August 13, 2021 23:59:00");
+        var linkThreeExpirationDate = new Date("August 20, 2021 23:59:00");
+        var linkFourExpirationDate = new Date("August 27, 2021 23:59:00");
+        var linkFiveExpirationDate = new Date("July 30, 2021 19:57:00");
+
+        if (current.getTime() <= linkOneExpirationDate.getTime()) {
+          $("#linkOne").show();
+          countOfLinksThatAreValid = countOfLinksThatAreValid + 1;
+        } else {
+          $("#linkOne").hide();
+        }
+
+        if (current.getTime() <= linkTwoExpirationDate.getTime()) {
+          $("#linkTwo").show();
+          countOfLinksThatAreValid = countOfLinksThatAreValid + 1;
+        } else {
+          $("#linkTwo").hide();
+        }
+
+        if (current.getTime() <= linkThreeExpirationDate.getTime()) {
+          $("#linkThree").show();
+          countOfLinksThatAreValid = countOfLinksThatAreValid + 1;
+        } else {
+          $("#linkThree").hide();
+        }
+
+        if (current.getTime() <= linkFourExpirationDate.getTime()) {
+          $("#linkFour").show();
+          countOfLinksThatAreValid = countOfLinksThatAreValid + 1;
+        } else {
+          $("#linkFour").hide();
+        }
+        if (countOfLinksThatAreValid === 0) {
+          $("#defaultLink").show();
+        } else {
+          $("#defaultLink").hide();
+        }
+        $("#Time").show();
+        $("#Time").text(current);
+      });
+    </script>
+  </body>
+</html>
